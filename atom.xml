@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://freebughao.github.io</id>
     <title>bughao</title>
-    <updated>2021-03-19T07:22:27.684Z</updated>
+    <updated>2021-03-19T08:04:14.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://freebughao.github.io"/>
     <link rel="self" href="https://freebughao.github.io/atom.xml"/>
@@ -22,7 +22,7 @@
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://freebughao.github.io/post-images/1616137411685.png" alt="" loading="lazy"></figure>
 <p>那么我在这里回答一下，windows过于封闭，而且软件容易捆绑各种广告，偶尔的蓝屏让我很是厌恶；linux呢，怎么说呢，很喜欢这个东西，但是碍于工作需要，腾讯的一些交流工具用起来比蹩脚，桌面环境偶尔会提示出崩溃又不告诉你为啥，Hackintosh刚好介于两者之间，那么  干就完了。</p>
-<p>其实之前入手xps直接刷黑苹果后用了很长一段时间切换回了windows，因为docker在mac下换取文件并没有之前用linux时那么舒服，不知道docker开发组用不用mac。就在某一天，无意间看到黑苹果的引导方式又进一步<a href="https://github.com/acidanthera/OpenCorePkg">opencore</a>，emm公司有台闲置老笔记本，上<a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">黑果小兵</a>查到了一款跟公司笔记本型号相近的<a href="https://github.com/lehuutrung1412/Hackintosh-HP-Laptop">oc EFI</a>，同时在这里感谢一个这个越南的老哥耐心的给我一些提示。</p>
+<p>其实之前入手xps直接刷黑苹果后用了很长一段时间切换回了windows，因为docker在mac下换取文件并没有之前用linux时那么舒服，不知道docker开发组用不用mac。就在某一天，无意间看到黑苹果的引导方式又进一步<a href="https://github.com/acidanthera/OpenCorePkg">opencore</a>，emm公司有台闲置老笔记本，上<a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">黑果小兵</a>查到了一款跟公司笔记本型号相近的<a href="https://github.com/lehuutrung1412/Hackintosh-HP-Laptop">oc EFI</a>，同时在这里感谢<a href="https://github.com/lehuutrung1412">lehuutrung1412</a>这个越南的老哥耐心的给我一些提示。</p>
 <p>接下来，干就完了，奈何惠普的bios太封闭了，我咨询了insyde美国的工程师，他的回复是他们出售bios给厂家后，厂家会二次开发适配自己的产品，很抱歉没有帮到我，然后惠普的工程师给的没有营养的回复让我很恼火，制作完U盘之后怎么也无法跳过CFG lock，读取bios rom也无法修改bios设置，一怒之下直接用<a href="https://freebughao.github.io/post-images/1616136964920.png">clover</a></p>
 <p>很顺利的安装完成，开关机正常，键盘鼠标能用，触摸板没有手势我不在乎，WiFi蓝牙不能用我不在乎，声卡没驱动我不在乎，集显能驱动但是显存只有4M WQNMD<br>
 <img src="https://freebughao.github.io/post-images/1616138025534.jpg" alt="" loading="lazy"><br>
