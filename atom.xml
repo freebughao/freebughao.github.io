@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://freebughao.github.io</id>
+    <title>bughao</title>
+    <updated>2022-03-25T01:12:01.036Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://freebughao.github.io"/>
+    <link rel="self" href="https://freebughao.github.io/atom.xml"/>
+    <subtitle>地牢里的狼   从来不在乎狗叫~~</subtitle>
+    <logo>https://freebughao.github.io/images/avatar.png</logo>
+    <icon>https://freebughao.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, bughao</rights>
+    <entry>
+        <title type="html"><![CDATA[Centos7 安装ORACLE 11g 有时候安装步骤窗口很小无法放大]]></title>
+        <id>https://freebughao.github.io/post/centos7-an-zhuang-oracle-11g-you-shi-hou-an-zhuang-bu-zou-chuang-kou-hen-xiao-wu-fa-fang-da/</id>
+        <link href="https://freebughao.github.io/post/centos7-an-zhuang-oracle-11g-you-shi-hou-an-zhuang-bu-zou-chuang-kou-hen-xiao-wu-fa-fang-da/">
+        </link>
+        <updated>2022-03-24T02:58:06.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-shell">./runInstaller -jreLoc /etc/alternatives/jre_1.8.0
+</code></pre>
+<p>虽然不知道为啥，但是这样就行了 - -、</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[黑苹果折腾日记]]></title>
+        <id>https://freebughao.github.io/post/hello-gridea/</id>
+        <link href="https://freebughao.github.io/post/hello-gridea/">
+        </link>
+        <updated>2021-03-19T06:10:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>为什么不用windows或者linux？ 穷+折腾+黑苹果介于windows和linux之间。注意这里不是黑苹果教程</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>为什么不用windows或者linux？ 穷+折腾+黑苹果介于windows和linux之间。注意这里不是黑苹果教程</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://freebughao.github.io/post-images/1616137411685.png" alt="" loading="lazy"></figure>
+<p>那么我在这里回答一下，windows过于封闭，而且软件容易捆绑各种广告，偶尔的蓝屏让我很是厌恶；linux呢，怎么说呢，很喜欢这个东西，但是碍于工作需要，腾讯的一些交流工具用起来比蹩脚，桌面环境偶尔会提示出崩溃又不告诉你为啥，Hackintosh刚好介于两者之间，那么  干就完了。</p>
+<p>其实之前入手xps直接刷黑苹果后用了很长一段时间切换回了windows，因为docker在mac下换取文件并没有之前用linux时那么舒服，不知道docker开发组用不用mac。就在某一天，无意间看到黑苹果的引导方式又进一步<a href="https://github.com/acidanthera/OpenCorePkg">opencore</a>，emm公司有台闲置老笔记本，上<a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">黑果小兵</a>查到了一款跟公司笔记本型号相近的<a href="https://github.com/lehuutrung1412/Hackintosh-HP-Laptop">oc EFI</a>，同时在这里感谢<a href="https://github.com/lehuutrung1412">lehuutrung1412</a>这个越南的老哥耐心的给我一些提示。</p>
+<p>接下来，干就完了，奈何惠普的bios太封闭了，我咨询了insyde美国的工程师，他的回复是他们出售bios给厂家后，厂家会二次开发适配自己的产品，很抱歉没有帮到我，然后惠普的工程师给的没有营养的回复让我很恼火，制作完U盘之后怎么也无法跳过CFG lock，读取bios rom也无法修改bios设置，一怒之下直接用<a href="https://freebughao.github.io/post-images/1616136964920.png">clover</a></p>
+<p>很顺利的安装完成，开关机正常，键盘鼠标能用，触摸板没有手势我不在乎，WiFi蓝牙不能用我不在乎，声卡没驱动我不在乎，集显能驱动但是显存只有4M WQNMD<br>
+<img src="https://freebughao.github.io/post-images/1616138025534.jpg" alt="" loading="lazy"><br>
+不过还好，在联想E450群里(我的机器是hp，奈何cpu型号相同，交流不分型号)大佬们指点下，刷缓冲帧，搞定2048M<br>
+<img src="https://freebughao.github.io/post-images/1616138074881.png" alt="" loading="lazy"></p>
+<p>目前稳定使用一周，只要他不崩，我就一直用，上了年纪的电脑也就这样了，不过比跑windows系统要流畅很多。加油吧，折腾少年~~~</p>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>黑苹果折腾日记 | bughao</title>
+<meta name="description" content="地牢里的狼   从来不在乎狗叫~~">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://freebughao.github.io/favicon.ico?v=1648170719158">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://freebughao.github.io/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://freebughao.github.io">bughao</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>黑苹果折腾日记</h1>
+            <p class="article-meta">
+              2021-03-19
+              
+                <a href="https://freebughao.github.io/tag/V3dwZMwRi/" class="badge success">
+                  Hackintosh
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>为什么不用windows或者linux？ 穷+折腾+黑苹果介于windows和linux之间。注意这里不是黑苹果教程</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://freebughao.github.io/post-images/1616137411685.png" alt="" loading="lazy"></figure>
+<p>那么我在这里回答一下，windows过于封闭，而且软件容易捆绑各种广告，偶尔的蓝屏让我很是厌恶；linux呢，怎么说呢，很喜欢这个东西，但是碍于工作需要，腾讯的一些交流工具用起来比蹩脚，桌面环境偶尔会提示出崩溃又不告诉你为啥，Hackintosh刚好介于两者之间，那么  干就完了。</p>
+<p>其实之前入手xps直接刷黑苹果后用了很长一段时间切换回了windows，因为docker在mac下换取文件并没有之前用linux时那么舒服，不知道docker开发组用不用mac。就在某一天，无意间看到黑苹果的引导方式又进一步<a href="https://github.com/acidanthera/OpenCorePkg">opencore</a>，emm公司有台闲置老笔记本，上<a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">黑果小兵</a>查到了一款跟公司笔记本型号相近的<a href="https://github.com/lehuutrung1412/Hackintosh-HP-Laptop">oc EFI</a>，同时在这里感谢<a href="https://github.com/lehuutrung1412">lehuutrung1412</a>这个越南的老哥耐心的给我一些提示。</p>
+<p>接下来，干就完了，奈何惠普的bios太封闭了，我咨询了insyde美国的工程师，他的回复是他们出售bios给厂家后，厂家会二次开发适配自己的产品，很抱歉没有帮到我，然后惠普的工程师给的没有营养的回复让我很恼火，制作完U盘之后怎么也无法跳过CFG lock，读取bios rom也无法修改bios设置，一怒之下直接用<a href="https://freebughao.github.io/post-images/1616136964920.png">clover</a></p>
+<p>很顺利的安装完成，开关机正常，键盘鼠标能用，触摸板没有手势我不在乎，WiFi蓝牙不能用我不在乎，声卡没驱动我不在乎，集显能驱动但是显存只有4M WQNMD<br>
+<img src="https://freebughao.github.io/post-images/1616138025534.jpg" alt="" loading="lazy"><br>
+不过还好，在联想E450群里(我的机器是hp，奈何cpu型号相同，交流不分型号)大佬们指点下，刷缓冲帧，搞定2048M<br>
+<img src="https://freebughao.github.io/post-images/1616138074881.png" alt="" loading="lazy"></p>
+<p>目前稳定使用一周，只要他不崩，我就一直用，上了年纪的电脑也就这样了，不过比跑windows系统要流畅很多。加油吧，折腾少年~~~</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://freebughao.github.io/images/avatar.png?v=1648170719158" class="no-responsive avatar">
+    <div class="text-muted">地牢里的狼   从来不在乎狗叫~~</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://freebughao.github.io/post/centos7-an-zhuang-oracle-11g-you-shi-hou-an-zhuang-bu-zou-chuang-kou-hen-xiao-wu-fa-fang-da/">Centos7 安装ORACLE 11g 有时候安装步骤窗口很小无法放大</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://freebughao.github.io/post/about/">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://freebughao.github.io/post/hello-gridea/">黑苹果折腾日记</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://freebughao.github.io/tag/dlaqhFiDC/" class="badge ">
+          Linux
+        </a>
+      
+        <a href="https://freebughao.github.io/tag/K9q68iWJx/" class="badge success">
+          ORACLE
+        </a>
+      
+        <a href="https://freebughao.github.io/tag/V3dwZMwRi/" class="badge warning">
+          Hackintosh
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    <a href="https://github.com/freebughao" target="_blank">github</a> | <a class="rss" href="https://freebughao.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>
